@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import SideBar from "./Components/SideBar";
 import Header from "./Components/Header";
 import Bottomoptions from "./assets/SvgFiles/BottomOptionsTwo.svg";
+import Table from "./Components/Table";
 
 function App() {
   return (
@@ -48,8 +49,8 @@ function App() {
             Transactions | This Month
           </p>
 
-          <div>
-            
+          <div className="w-full">
+            <Table />
           </div>
         </div>
       </div>

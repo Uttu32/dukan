@@ -6,7 +6,7 @@
   border: 1px solid red;
 }
 
-.green{
+.green {
   border: 1px solid green;
 }
 
@@ -14,6 +14,10 @@
   background: var(--Secondary-Navbar, #1e2640);
 }
 
-.inter{
-  font-family: 'Inter', sans-serif;
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+.blueColor {
+  color: var(--Primary-Blue, #146eb4);
 }
