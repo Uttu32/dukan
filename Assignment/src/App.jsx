@@ -12,7 +12,7 @@ function App() {
         <SideBar />
       </aside>
       {/* main section  */}
-      <div className="w-full flex flex-col items-center bg-[#FAFAFA] gap-4">
+      <div className="w-full flex flex-col items-center bg-[#FAFAFA] gap-4 pb-8" >
         {/* header  */}
         <Header />
 

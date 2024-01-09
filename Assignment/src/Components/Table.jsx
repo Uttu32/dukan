@@ -121,9 +121,9 @@ export default function Table() {
     },
   ];
   return (
-    <div className="inter w-full bg-white py-2 px-3 flex flex-col gap-4">
+    <div className="inter w-full bg-white py-2 px-3 flex flex-col gap-4 items-center pb-6">
       {/* top search bar and sort options  */}
-      <div className="flex justify-between items-center ">
+      <div className="flex justify-between items-center w-full ">
         {/* search bar  */}
         <div className="relative w-[20%]">
           <input
@@ -169,7 +169,23 @@ export default function Table() {
         </tbody>
       </table>
 
-      
+      <div className="flex items-center gap-4">
+        <p className="rounded-[0.25rem] border border-[#D9D9D9] bg-white px-4 py-1">Previous</p>
+        <div className="flex gap-2">
+            <p>1</p>
+            <p>...</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+        </div>
+        <p className="rounded-[0.25rem] border border-[#D9D9D9] bg-white px-4 py-1">Next</p>
+      </div>
     </div>
   );
 }
