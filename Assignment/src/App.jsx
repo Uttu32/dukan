@@ -6,7 +6,7 @@ import Table from "./Components/Table";
 
 function App() {
   return (
-    <div className="red flex inter">
+    <div className="flex inter">
       {/* left section / side bar */}
       <aside className="w-[15%]">
         <SideBar />
