@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.red {
+  border: 1px solid red;
+}
+
+.green {
+  border: 1px solid green;
+}
+
+.sidebarBcg {
+  background: var(--Secondary-Navbar, #1e2640);
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+.blueColor {
+  color: var(--Primary-Blue, #146eb4);
+}
